@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+        <html>
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formulário de Login</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+rel="stylesheet">
+</head>
+        <body>
+<div class="container col-sm-8 bg-primary" >
+    <div class="row">
+<form class="needs-validation" method="GET" action="./home.html"novalidate>
+<div class="d-flex col-sm-12 justify-=content-center" >
+<div class="row">
+<div class="col-12-sm">
+<h1 class="">Login</h1>
+</div>
+</div>
+</div>
+<div class="d-flex col-sm-12 justify-=content-center">
+<div class="row">
+<div class="col-sm-12 input-group has-validation">
+<label class="input-group-text" for="nome_login">Usuário: </label>
+<input class="form-control is-valid" id="nome_login" type="text" required/>
+    <div class="invalid-feedback">informe o usuário.</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12 input-group">
+<label class="input-group-text" for="senha_login" >Senha: </label>
+<input class="form-control is-valid" id="senha_login" type="password" required/>
+<div class="invalid-feedback">informe a senha.</div>
+</div>
+</div>
+</div>
+<div class="d-flex justify-content-center col-sm-4">
+<div class="row">
+<div class="col-sm-12 form-check form-switch" >
+<input class="form-check-input" role="switch" type="checkbox" name="manterlogado" value="" />
+<label class="form-check-label"> Manter logado </label>
+</div>
+</div>
+</div>
+<div class="d-flex col-sm-12 justify-content-center ">
+<div class="row ">
+<div class="col-sm-12">
+<button class="btn btn-success" type="submit" >Login</button>
+</div>
+</div>
+</div>
+<div class="d-flex col-sm-12 justify-content-center ">
+<div class="row">
+<div class="col-sm-12">
+<a class="btn btn-primary" href="./view/cadastro.html">Ainda não tem conta?</a>
+<a class="btn btn-primary" href="./view/reset.html">Esqueceu a senha?</a>
+</div>
+</div>
+</div>
+</form>
+</div>
+        </body>
+</html>
